@@ -455,27 +455,21 @@ void setup(void) {
       if (status == "ready") {
         if (data == "L") {
           Serial.print("L ");
-          CHECK();
           L();
         } else if (data == "L'") {
           Serial.print("L' ");
-          CHECK();
           LL();
         } else if (data == "L2") {
           Serial.print("L2 ");
-          CHECK();
           L2();
         } else if (data == "R") {
           Serial.print("R ");
-          CHECK();
           R();
         } else if (data == "R'") {
           Serial.print("R' ");
-          CHECK();
           RR();
         } else if (data == "R2") {
           Serial.print("R2 ");
-          CHECK();
           R2();
         } else if (data == "B") {
           Serial.print("B ");
